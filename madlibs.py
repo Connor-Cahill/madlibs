@@ -46,5 +46,4 @@ def madlibs():
         noun6 = str(input('Enter another noun: '))
         return print(stories[1].format(name = name, noun = noun, adj = adj, verb = verb, noun2 = noun2, noun3 = noun3,
         number = number, adj2 = adj2, noun4 = noun4, noun5 = noun5, noun6 = noun6))
-#print(selectStory(stories))
-# madlibs()
+madlibs()
